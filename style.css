@@ -21,7 +21,7 @@ body
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: azure;
-    margin: 10px 1290px 10px 15px;
+    margin: 10px 405px 10px 500px;
     padding: 5px;
 }
 a
@@ -42,10 +42,52 @@ a
 }
 .cont_1 /*flex item 1*/
 {
-    margin: 100px 15px 100px 300px;
+    margin: 75px 15px 100px 500px;
+}
+.cont_2 /*flex item 2*/
+{
+    background-color: gray;
+    padding: 75px 100px 5px 100px;
+    margin: 75px 300px 100px 15px;
+    align-items: center;
 }
 .placeholder_img
 {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
     
-    padding: 5px;
+}
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-size: 48px;
+    font-weight:bold;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:azure;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 2%;
+    width: 25%;
+    cursor: pointer;
+}
+.sign_up1
+{
+    margin-top: 10px;
 }
