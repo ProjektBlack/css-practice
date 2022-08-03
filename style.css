@@ -1,7 +1,8 @@
 /*to visualize the box model*/
 *
 {
-    border: 1px solid red;
+    border: 0px solid red;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* no margin */
 body
@@ -90,4 +91,54 @@ button
 .sign_up1
 {
     margin-top: 10px;
+}
+/*end of the first box*/
+/*second box*/
+.second_box
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.h3
+{
+    margin-top: 2%;
+    font-size: 24px;
+    color: #3882F6;
+}
+.images
+{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+    width: 50%;
+    display: flex;
+    flex: 1;
+}
+img
+{
+    margin: 0% 1% 0% 1%;
+    padding: 8%;
+    width: 40%;
+    border-radius: 15px;
+    border: 3px solid #3882F6;
+}
+.paragraphs
+{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    width: 50%;
+    display: flex;
+    flex: 1;
+}
+.subtext
+{
+    color: gray;
+    text-align: center;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;   
 }
