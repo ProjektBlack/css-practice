@@ -101,12 +101,13 @@ button
     display: flex;
     flex: 1;
     flex-direction: column;
+    margin-bottom: 3%;
 }
 .h3
 {
     margin-top: 2%;
     font-size: 24px;
-    color: #3882F6;
+    color: black;
 }
 .images
 {
@@ -141,4 +142,68 @@ img
     width: 100%;
     margin-left: 5%;
     margin-right: 5%;   
+}
+/*end of second box*/
+.third_box
+{
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    flex: 1;
+}
+.quotebox
+{
+    width: 50%;
+}
+.quote
+{
+    text-align: justify;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 2%;
+}
+.thor
+{
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    text-align: right;
+}
+/*end of third box*/
+/*fourth box*/
+.fourth_box
+{
+    background-color: white;
+    justify-content: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    display: flex;
+    flex: 1;
+}
+.popup
+{
+    background-color:#3882F6;
+    width: 40%;
+    display: flex;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+}
+.popupp
+{
+    margin-right: 20%;
+}
+.callh
+{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.sign_up2
+{
+    border-width: 2px;
+    border-color: white;
 }
