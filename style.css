@@ -1,7 +1,7 @@
 /*to visualize the box model*/
 *
 {
-    border: 0px solid red;
+    border: 1px solid red;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* no margin */
@@ -12,26 +12,34 @@ body
 /*header box*/
 .header
 {
+    justify-content: center;
     background-color: #1f2937;
     display: flex;
-    flex: 1;
 }
-
+.links
+{
+    display: flex;
+    width: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: right;
+    margin-left: 15%;
+}
 .logo
 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     color: azure;
-    margin: 10px 405px 10px 500px;
-    padding: 5px;
 }
 a
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: azure;
-    margin: 10px 5px 10px 5px;
-    padding: 10px;
+    text-align: center;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding-top: 5%;
 }
 /*end of header box*/
 /*first box*/
@@ -40,17 +48,20 @@ a
     background-color: #1f2937;
     display: flex;
     flex: 1;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .cont_1 /*flex item 1*/
 {
-    margin: 75px 15px 100px 500px;
+    margin-right: .5%;
 }
 .cont_2 /*flex item 2*/
 {
     background-color: gray;
     padding: 75px 100px 5px 100px;
-    margin: 75px 300px 100px 15px;
     align-items: center;
+    margin-left: .5%;
 }
 .placeholder_img
 {
@@ -113,16 +124,15 @@ button
 {
     justify-content: space-between;
     align-items: center;
-    margin: 0px 10px 10px 10px;
+    margin: 0 1% 0 1%;
     width: 50%;
     display: flex;
-    flex: 1;
 }
 img
 {
     margin: 0% 1% 0% 1%;
     padding: 8%;
-    width: 40%;
+    width: 20%;
     border-radius: 15px;
     border: 3px solid #3882F6;
 }
@@ -206,4 +216,15 @@ img
 {
     border-width: 2px;
     border-color: white;
+}
+/*end of the fourth box*/
+/* footer*/
+.footer
+{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #1f2937;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
